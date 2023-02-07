@@ -1,0 +1,20 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.main-container {
+    border: 10px solid black;
+    background-color: hsl(215, 32%, 25%);
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+img {
+    width: 400px;
+}
