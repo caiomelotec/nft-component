@@ -10,35 +10,58 @@
 
   <title>Frontend Mentor | NFT preview card component</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
 
 </head>
 
 <body>
   <main>
     <div class="main-container">
-      <div> <img src="images/image-equilibrium.jpg" alt=""></div>
-      <div>
-        <h2>Equilibrium #3429</h2>
+
+      <div class="img-container"> <!--container-->
+        <img src="images/image-equilibrium.jpg" alt="" class="img-test"> <!--image-->
+        <div class="middle"> <!--middle-->
+          <img src="images/icon-view.svg" alt="" class="text">
+        </div>
       </div>
 
+
       <div>
+        <h2 class="h2-container">Equilibrium #3429</h2>
+      </div>
+
+      <div class="p-container">
         <p>Our Equilibrium collection promotes <br> balance and calm.</p>
       </div>
-      <div>
-        <p> 0.041 ETH</p>
-        <p>3 days left</p>
-      </div>
+      <div class="p-row-container">
+        <div class="div-eth-icon">
+          <div><img src="images/icon-ethereum.svg" alt="" class="eth-icon"></div>
+          <div>
+            <h3>0.041 ETH</h3>
+          </div>
+        </div>
+        <div class="row-test">
 
-      <div>
-        <p> Creation of Jules Wyvern </p>
+          <div class="div-clock-icon">
+            <div><img src="images/icon-clock.svg" alt="" class="clock-icon"></div>
+            <div>
+              <p>3 days left
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-under">
+        <p> Creation of<span class="p-span-container"> Jules Wyvern </span></p>
       </div>
     </div>
+
   </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Caio Melo</a>.
   </div>
+
 </body>
 
 </html>
